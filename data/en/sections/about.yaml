@@ -1,0 +1,42 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Desarrollador web
+# your company information
+company:
+  name: CPI Los Enlaces.
+  url: "https://cpilosenlaces.com/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Soy un desarrollador web el cual es un entusiasta de la creación de paginas web y de la programación en general, mi mayor motivación para trabajar de lo que trabajo es mi gran pasion por la programación, la solución de los problemas, la creación de codigo con un toque personal y los rompecabezas de esta profesión'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/javiKTR"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Python
+  percentage: 90
+  color: pink
+- name: JavaScript
+  percentage: 85
+  color: yellow
+- name: PHP
+  percentage: 75
+  color: blue
